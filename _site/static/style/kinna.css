@@ -30,10 +30,23 @@ body {
 
 }
 
+.heading {
+    text-align: center;
+}
+
+.heading .logo, .heading .logo a {
+    display: inline-block;
+}
+
+.heading .menu, .heading .menu a {
+    display: inline-block;
+    text-align: center;
+}
+
 .main {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 400px;
 }
 
 
@@ -68,6 +81,10 @@ body {
     color: white;
 }
 
+h1 {
+    font-weight: 600;
+}
+    
 h3 {
     text-align: center;
     font-style: italic;
