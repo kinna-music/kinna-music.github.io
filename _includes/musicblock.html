@@ -1,6 +1,4 @@
 <div class="musicitem" id="music-{{ post.title | remove: ' ' }}">
-    <a href="https://{{ site.bandcamp }}/{{ post.bandcamp }}">
-        <div class="item_title">post.title</div>
-        <div class="item_image">post.image</div>
-    </a>
+<a href="{{ post.url }}" class="item_title">{{ post.title }}</a>
+<a href="{{ post.url }}" class="item__image"><img src="{{ post.image }}" alt="{{ post.title }}" height="300" width="300"/></a>
 </div>

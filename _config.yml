@@ -33,3 +33,8 @@ collections:
     output: true
   unused:
     output: false
+
+bandcamp: https://kinna.bandcamp.com
+spottify:
+applemusic:
+soundcloud: https://soundcloud.com/kinnamusic

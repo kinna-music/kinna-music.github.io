@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="heading">
+    <a href="/" class="logo" alt="Kinna">Kinna</a>
+
+    <div class="menu">
+        {% include menu.html %}
+    </div>
+</div>
+
+{% if page.title == "Music" %}{{ content }}{% else %}
+
+<h1>{{ page.title }}</h1>
+{% if page.default-source == "bandcamp" %}<a href="{{ site.bandcamp }}/{{ post.bandcamp }}" target="_blank">
+    {% elsif page.default-source == "soundcloud" %}<a href="{{ site.soundcloud }}/{{ post.soundcloud }}" target="blank">{% endif %}
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+    </a>
+    
+{{ page.description }}
+
+{% endif %}

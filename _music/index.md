@@ -1,7 +1,7 @@
 ---
 layout: music
 title: Music
-date:
+date: 31/08/2023
 publish: true
 order: 1
 summary: Really exciting music!
@@ -15,6 +15,6 @@ soundcloud:
 
 # Music
 
-{% assign content = site.music | sort: 'order' %}{% for post in content %}{% if post.publish = true %}{% if post.title != "Music" %}{% include musicblock.html %}{% endif %}{% endif %}{% endfor %}
+{% assign content = site.music | sort: 'order' %}{% for post in content %}{% if post.publish != false %}{% if post.title != "Music" %}{% include musicblock.html %}{% endif %}{% endif %}{% endfor %}
 
 </div>

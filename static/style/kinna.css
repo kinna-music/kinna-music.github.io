@@ -62,22 +62,23 @@ body {
     color: white;
 }
 
-.link {
+.link, .logo {
     display: block;
     color: black;
-    padding-right: 2rem;
+    padding: 0 2rem;
     margin-bottom: 2rem;
     text-align: center;
     text-decoration: none;
 }
 
-.link:hover {
+.link:hover, .logo:hover {
     background-color: black;
     color: white;
     font-weight: 400;
 }
 
 .link span {
+    display: none;
     color: white;
 }
 
