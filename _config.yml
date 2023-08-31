@@ -1,0 +1,33 @@
+title: Kinna
+tagline: Kinna's creativity
+url: https://www.kinna.co.uk
+
+baseurl: /
+author:
+  name: Roland Whitehead
+  url: https://cart-shed.com
+  email: roland@cart-shed.com
+pages_list:
+  About: '/about'
+  Feet: '/atom.xml'
+exclude:
+  - ".#*"
+  - "links/*"
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+version: 0.1
+description: Kinna is a new, award winning creative, working between film and music.
+github:
+  repo: https://github.com/kinna-music/kinna-music.github.io
+
+collections:
+  music:
+    output: true
+  film:
+    output: true
+  news:
+    output: true
+  unused:
+    output: false
