@@ -10,15 +10,27 @@ layout: default
     </div>
 </div>
 
+<div class="main" markdown="1">
+
 {% if page.title == "Music" %}{{ content }}{% else %}
 
 <h1>{{ page.title }}</h1>
-{% if page.default-source == "bandcamp" %}<a href="{{ site.bandcamp }}/{{ post.bandcamp }}" target="_blank">
-{% elsif page.default-source == "soundcloud" %}<a href="{{ site.soundcloud }}/{{ post.soundcloud }}" target="blank">
-{% else %}<a href="{{ site.bandcamp }}/{{ post.bandcamp }}" target="_blank"></a>{% endif %}
-<img src="{{ page.image }}" alt="{{ page.title }}">
+{% if page.default-source %}
+<a href="{% if page.default-source == "bandcamp" %}{{ site.bandcamp }}/{{ page.bandcamp }}{% elsif page.default-source == "spotify" %}{{ site.spotify }}/{{ page.spotify }}{% elsif page.default-source == "applemusic" %}{{ site.applemusic }}/{{ page.applemusic }}{% elsif page.default-source == "soundcloud" %}{{ site.soundcloud }}/{{ page.soundcloud }}{% endif %}" target="_blank">
+<img src="{{ page.image }}" alt="{{ page.title }}" class="cover">
 </a>
+{% else %}
+<img src="{{ page.image }}" alt="{{ page.title }}" class="cover">
+{% endif %}
+<div class="players">
+{% if page.bandcamp %}<a href="{{ site.bandcamp }}/{{ page.bandcamp }}" target="_blank"><img src="/static/images/bandcamp60.jpg" alt="Bandcamp"></a>{% endif %}    
+{% if page.spotify %}<a href="{{ site.spotify }}/{{ page.spotify }}" target="_blank"><img src="/static/images/spotify60.jpg" alt="Spotify"></a>{% endif %}    
+{% if page.applemusic %}<a href="{{ site.applemusic }}/{{ page.applemusic }}" target="_blank"><img src="/static/images/applemusic60.jpg" alt="Apple Music"></a>{% endif %}    
+{% if page.soundcloud %}<a href="{{ site.soundcloud }}/{{ page.soundcloud }}" target="_blank"><img src="/static/images/soundcloud60.jpg" alt="soundcloud"></a>{% endif %}    
+</div>
         
 {{ content }}
 
 {% endif %}
+
+</div>

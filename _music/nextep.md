@@ -2,7 +2,7 @@
 layout: music
 title: Next EP
 date: 31/10/2023
-publish: true
+publish: false
 order: 20
 summary: Something different
 bandcamp: nextep

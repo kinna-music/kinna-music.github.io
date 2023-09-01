@@ -35,6 +35,6 @@ collections:
     output: false
 
 bandcamp: https://kinna.bandcamp.com
-spottify:
-applemusic:
+spotify: https://open.spotify.com
+applemusic: https://applemusic.apple
 soundcloud: https://soundcloud.com/kinnamusic

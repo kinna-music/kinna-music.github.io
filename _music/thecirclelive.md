@@ -1,14 +1,14 @@
 ---
 layout: music
-title: The Circle (live)
-date: 22/9/2023
+title: "The Circle (live)"
+date: 22/8/2023
 publish: true
 order: 10
 summary: Live collaboration with Adam Roberts & Tom Phillips.
-bandcamp: the-circle-live-album
-spotify: notknown
-applemusic: notknown
-soundcloud: notknown
+bandcamp: album/the-circle-live-album
+spotify: 
+applemusic: 
+soundcloud: 
 default-source: bandcamp
 image: ///f4.bcbits.com/img/a2884233009_16.jpg
 ---
