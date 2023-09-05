@@ -11,10 +11,7 @@ spotify:
 applemusic:
 soundcloud:
 ---
-<div class="main" markdown="1">
 
 # Music
 
 {% assign content = site.music | sort: 'order' %}{% for post in content %}{% if post.publish != false %}{% if post.title != page.title %}{% include musicblock.html %}{% endif %}{% endif %}{% endfor %}
-
-</div>

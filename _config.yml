@@ -3,6 +3,7 @@ tagline: Kinna's creativity
 url: https://www.kinna.co.uk
 
 baseurl: /
+relative_url: true
 author:
   name: Roland Whitehead
   url: https://cart-shed.com
@@ -12,6 +13,9 @@ pages_list:
   Feet: '/atom.xml'
 exclude:
   - ".#*"
+  - "/*/.#*"
+  - "#*"
+  - "/*/#*"
   - "links/*"
 plugins:
   - jekyll-sitemap

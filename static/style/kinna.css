@@ -20,73 +20,117 @@ time, mark, audio, video {
 }
 
 html {
-    font: 15px/1.6 "Open Sans", GillSansRegular, "Gill Sans MT", "Gill Sans", "Gill Sans W01 Medium", sans-serif;
-    font-weight: 200;  
+    font-family: "Geneva", "Roboto", "sans-serif";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;  
 }
 
 body {
     margin-top: 10rem;
     background-color: white;
+    width: 36rem;
+    margin: 0 auto;
+}
 
+#bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(240, 240, 240, 0.5);  
+}
+
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+}
+
+.heading, .content {
+    position: relative;
+    z-index: 200;
+}
+
+.heading, .content {
 }
 
 .heading {
-    text-align: center;
-}
-
-.heading .logo, .heading .logo a {
-    display: inline-block;
-}
-
-.heading .menu, .heading .menu a {
-    display: inline-block;
-    text-align: center;
-}
-
-.main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    margin-top: 7rem;
 }
 
 
-
-#kinna {
-    width: 200px;
-    height: 48px;
-    font-size: 2rem;
+.logo {
+    width: 5rem;
+    font-weight: 700;
     font-style: italic;
-    text-align: center;
-    margin-bottom: 3rem;
-    background: no-repeat url(background.svg);
-    color: white;
+    position: relative;
+    left: -5rem;
 }
 
-.link, .logo {
-    display: block;
-    color: black;
-    padding: 0 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    text-decoration: none;
+.menu {
+    position: relative;
+    top: -1.2rem;
 }
 
-.link:hover, .logo:hover {
-    background-color: black;
-    color: white;
-    font-weight: 400;
-}
-
-.link span {
+.link .details  {
     display: none;
-    color: white;
 }
 
-h1 {
-    font-weight: 600;
+.link {
+    width: 5rem;
+    text-align: left;
+    display: inline-block;
 }
-    
-h3 {
-    text-align: center;
+
+.link:hover {
+    font-weight: 700;
+}
+
+.content {
+    padding-top: 3rem;
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 130%;
+    padding-bottom: 2rem;
+}
+
+.content iframe {
+    padding-bottom: 2rem;
+}
+
+.content p {
+    padding-bottom: 1rem;
+}
+
+.content strong {
+    font-weight: 500;
     font-style: italic;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.item_title {
+    width: 10rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+.item_image img {
+    width: 25rem;
+    vertical-align: middle;
+    text-align: right;
 }
