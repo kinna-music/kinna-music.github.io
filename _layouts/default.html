@@ -13,20 +13,24 @@
 
 <body>
 <div id="bg">
-    <video id="bgvideo" autoplay>
-        <source src="/static/videos/background.webm" type="video/webm"> 
-        <source src="/static/videos/background.ogv" type="video/ogg"> 
-        <source src="/static/videos/background.mp4" type="video/mp4">
-        <source src="/static/videos/background.3gp" type="video/3gp">
+    <video id="bgvideo" autoplay muted loop>
+        <source src="/static/videos/kinna30s-720p.webm" type="video/webm"> 
+        <source src="/static/videos/kinna30s-720p.ogv" type="video/ogg"> 
+        <source src="/static/videos/kinna30s-720p.mp4" type="video/mp4">
+        <!-- <source src="/static/videos/kinna30s-720p.3gp" type="video/3gp"> -->
         Your browser does not support the video tag.
     </video>
     
 </div>
 
-{{ content }}
+{% include menu.html %}
+
+<div id="content" markdown="1">
+    {{ content }}
     <script type="text/javascript">
         /* Add Javascript here */
     </script>
+</div>
 </body>
 
 </html>

@@ -14,69 +14,60 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 1rem;
-	font: inherit;
 	vertical-align: baseline;
 }
 
 html {
     font-family: "Geneva", "Roboto", "sans-serif";
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400;  
 }
+
 
 body {
     margin-top: 10rem;
     background-color: white;
-    width: 36rem;
-    margin: 0 auto;
+    background: url(/static/images/WebsiteStill_1.1.1.jpg);
+    background-size: cover;
 }
 
 #bg {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(240, 240, 240, 0.5);  
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
 }
 
 #bgvideo {
     position: fixed;
-    right: 0;
     bottom: 0;
-    width: 100%; 
+    right: 0;
+    min-width: 100%;
     min-height: 100%;
 }
 
-.heading, .content {
+#menuframe {
+    width: 100%;
+    height: 13rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+    background-image: url(/static/images/mask.png);
+}
+
+#menu {
+    padding-top: 7rem;
     position: relative;
-    z-index: 200;
+    left: -9rem;
 }
 
-.heading, .content {
-}
-
-.heading {
-    margin-top: 7rem;
-}
-
-
-.logo {
-    width: 5rem;
-    font-weight: 700;
-    font-style: italic;
-    position: relative;
-    left: -5rem;
-}
-
-.menu {
-    position: relative;
-    top: -1.2rem;
-}
 
 .link .details  {
     display: none;
@@ -86,31 +77,46 @@ body {
     width: 5rem;
     text-align: left;
     display: inline-block;
+    color: black;
 }
 
 .link:hover {
     font-weight: 700;
 }
 
-.content {
-    padding-top: 3rem;
+.link:visited {
+    color: black;
 }
 
-.content h1 {
+.logo {
+    width: 8rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#content {
+    width: 36rem;
+    position: relative;
+    z-index: 200;
+    margin: 5rem auto 13rem auto;
+}
+
+#content h1 {
     font-weight: 700;
     font-size: 130%;
     padding-bottom: 2rem;
 }
 
-.content iframe {
+#content iframe {
     padding-bottom: 2rem;
 }
 
-.content p {
+#content p {
     padding-bottom: 1rem;
 }
 
-.content strong {
+#content strong {
     font-weight: 500;
     font-style: italic;
 }
@@ -134,3 +140,52 @@ body {
     vertical-align: middle;
     text-align: right;
 }
+
+.players {
+    margin: 1rem 0;
+}
+
+.players img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border: 2px none black;
+}
+
+.players a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+
+.date {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.newsimage {
+    width: 25rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+label span {
+    width: 10rem;
+    display: inline-block;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+button {
+    width: 10rem;
+    margin: 1rem 0 0 10rem;
+}
+
