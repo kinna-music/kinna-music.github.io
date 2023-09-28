@@ -6,7 +6,7 @@ publish: true
 order: 40
 summary: "'Don't Mind It' explores the desire for another person to dictate your life and control who you are."
 bandcamp: 
-spotify: 
+spotify: album/3q07sVdACeJcx3t1lf5p41?si=-QnFIDVQRxi8MAokUGo_cg 
 applemusic: 
 soundcloud: dont-mind-it
 default-source: soundcloud

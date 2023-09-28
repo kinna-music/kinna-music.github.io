@@ -6,9 +6,9 @@ publish: true
 order: 10
 summary: Live collaboration with Adam Roberts & Tom Phillips.
 bandcamp: album/the-circle-live-album
-spotify: 
+spotify: album/1AVjQfj0vtm7eU5nHmQ2YZ?si=SJO49FnKSIyR5qE9hfWysw
 applemusic: 
-soundcloud: 
+soundcloud: sets/the-circle-live-album
 default-source: bandcamp
 image: ///f4.bcbits.com/img/a2884233009_16.jpg
 ---

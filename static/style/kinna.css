@@ -47,9 +47,10 @@ body {
 #bgvideo {
     position: fixed;
     bottom: 0;
-    right: 0;
     min-width: 100%;
     min-height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 #menuframe {
