@@ -18,17 +18,19 @@ time, mark, audio, video {
 }
 
 html {
-    font-family: "Geneva", "Roboto", "sans-serif";
+    font-family: 'Be Vietnam Pro', Geneva, sans-serif;
     font-size: 18px;
     line-height: 24px;
-    font-weight: 400;  
+    font-weight: 200;  
 }
 
+/* Top:    #f9f1fe
+   Bottom: #f0eafd */
 
 body {
     margin-top: 10rem;
-    background-color: white;
-    background: url(/static/images/WebsiteStill_1.1.1.jpg);
+    background-image: linear-gradient(#f9f1fe, #f0eafd);
+    /*background: url(/static/images/WebsiteStill_1.1.1.jpg);*/
     background-size: cover;
 }
 
@@ -69,6 +71,18 @@ body {
     left: -9rem;
 }
 
+a#show_nav {
+	float:  right;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 1rem;
+	margin-right: 30px;
+	background-image: url(/static/images/menu.png);
+}
+
+
+
 
 .link .details  {
     display: none;
@@ -79,10 +93,11 @@ body {
     text-align: left;
     display: inline-block;
     color: black;
+    text-decoration: none;
 }
 
 .link:hover {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .link:visited {
@@ -91,7 +106,7 @@ body {
 
 .logo {
     width: 8rem;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     display: inline-block;
 }
@@ -99,12 +114,13 @@ body {
 #content {
     width: 36rem;
     position: relative;
+    top: 4rem;
     z-index: 200;
-    margin: 5rem auto 13rem auto;
+    margin: auto auto;
 }
 
 #content h1 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 130%;
     padding-bottom: 2rem;
 }
@@ -118,7 +134,7 @@ body {
 }
 
 #content strong {
-    font-weight: 500;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -159,6 +175,12 @@ body {
     height: 40px;
 
 }
+.news .item_image img {
+    width: 5rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
 
 .date {
     font-style: italic;
@@ -169,6 +191,19 @@ body {
     width: 25rem;
     display: block;
     padding: 1rem 0;
+}
+
+form input[type="string"], form input[type="email"], textarea {
+    width: 100%;
+    box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    margin: 0.5rem 0 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0px;
+    margin-bottom: 0.5rem;
+    margin-left: 0px;
 }
 
 label {
@@ -190,3 +225,175 @@ button {
     margin: 1rem 0 0 10rem;
 }
 
+# embed content
+
+iframe .sound__artwork {
+    dislay: none !important;
+}
+
+.sound__content {
+    left: 0 !important;
+}
+
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	body {
+		width: 92%;
+		max-width: none;
+		margin-top: 0;
+	}
+
+
+}
+
+@media only screen and (min-width : 700px){
+
+}
+
+
+@media only screen and (min-width: 960px){
+
+}
+
+
+@media only screen and (min-width: 760px){
+
+/* Main navigation layout */
+
+a#show_nav {
+	display:  none;
+}
+
+#nav {
+	float: left;
+	position:  relative;
+	top: -4.5rem;
+	padding-top: 34px;
+	max-height: inherit;
+	width:  100%;
+}
+
+#nav > a {
+	display: none;
+	height: 40px;
+}
+
+#nav ul#menu {
+    margin: 0;
+    padding: 0;
+    border: none;
+    float:  right;
+}
+
+
+#nav ul#menu, #nav ul.menu_sub {
+	list-style-type: none;
+    position: relative;
+    top: -5px;
+}
+
+#nav ul#menu li {
+	display: inline;
+	float: left;
+	padding: 0;
+	}
+
+
+#nav ul.menu_sub {
+	background: white;
+	box-shadow: 0px 3px 8px 8px #fff;
+}
+
+#nav ul#menu a.selected {}
+
+#nav ul#menu a:hover {
+	font-weight: 600;
+	padding: 0.4rem 1.0rem 0;
+	background-color: white;
+}
+
+#nav ul#menu a {
+	text-align:  left;
+	text-decoration: none;
+	width: 3.2rem;
+	height: 1.8rem;
+	padding: 0.4rem 1.0rem 0;
+	display: inline-block;
+	color: #515151;
+}
+
+#show_nav, .show_nav {
+	display: none;
+}
+
+#mask, .mask {
+	z-index: 5;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left:  0;
+	display: none;
+}
+
+/* @group Dropdowns */
+
+/* Drop-down menu box styles (initially hidden) */
+/*ul.menu_sub {
+	display: list-item;
+	padding-left: 0;
+	z-index: 7;
+} DELETEME */
+
+ul.menu_sub a {
+	width: 3rem !important;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+}
+
+ul#menu ul {
+    list-style: none;
+    padding: 0;
+    /* The next 2 styles are very important, being the ones which default the drop-down menu box to hidden */
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    z-index: 910;
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+	top: 6.5rem;
+}
+
+/* Show drop-down menu box on no_touch hover,
+   or on (inferred) yes_touch when touched */
+ul#menu > li:hover > ul {
+    /* The next 2 styles are very important, being the ones which show the drop-down menu */
+	visibility: visible;
+    opacity: 1;
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+
+/* Don't wrap text on drop-down sub-menu items */
+ul#menu ul li {
+    clear:both;
+	white-space: nowrap;
+}
+
+/* Show hover underline on drop-down sub-menu items */
+ul#menu li a:hover, ul#menu ul li a:hover {
+	/*background-color: #000080;
+	background-image: linear-gradient(#0000c2, #000080, #00005d);*/
+}
+
+/* @end */
+
+}
