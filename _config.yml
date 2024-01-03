@@ -23,7 +23,9 @@ plugins:
   - jekyll-seo-tag
 version: 0.1
 kramdown:
-  parse_block_html: true
+  gfm_quirks: [paragraph_end]
+  gfm_emojis: true
+  hard_wrap: true
 description: Kinna is a new, award winning creative, working between film and music.
 github:
   repo: https://github.com/kinna-music/kinna-music.github.io

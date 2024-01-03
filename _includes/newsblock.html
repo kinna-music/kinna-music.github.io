@@ -1,5 +1,9 @@
 <div class="news" id="news_{{ post.title | remove: ' ' }}">
-    <div class="item_title"><div class="title_text">{{ post.title }}</div><div class="date">{{ post.date | date: "%d %b %Y" }}</div></div>
-  <div class="item_image"><img src="{{ post.image }}" alt="{{ post.title }}"/></div>
+    <div class="item_title">
+        <img class="item_image" src="{{ post.image }}" alt="{{ post.title }}"/>
+        <div class="title_text">{{ post.title }}</div>
+        <div class="date">{{ post.date | date: "%d %b %Y" }}</div>
+  </div>
   <div class="item_body">{{ post.content }}</div>
 </div>
+----

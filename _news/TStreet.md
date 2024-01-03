@@ -1,6 +1,6 @@
 ---
 layout: news
-title: Exibiution in T Street
+title: Exhibition in T Street
 date: 03/01/2024
 publish: true
 order: 1

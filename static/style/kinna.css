@@ -28,10 +28,18 @@ html {
    Bottom: #f0eafd */
 
 body {
-    margin-top: 10rem;
+    padding-top: 10rem;
     background-image: linear-gradient(#f9f1fe, #f0eafd);
     /*background: url(/static/images/WebsiteStill_1.1.1.jpg);*/
     background-size: cover;
+    height: 100%;
+}
+
+hr {
+    margin: 2.5rem 0 2rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
 }
 
 #bg {
@@ -113,13 +121,14 @@ a#show_nav {
 
 #content {
     width: 36rem;
-    position: relative;
-    top: 4rem;
+    height: 100%;
+    padding-top: 3rem;
     z-index: 200;
     margin: auto auto;
 }
 
 #content h1 {
+    display: none;
     font-weight: 400;
     font-size: 130%;
     padding-bottom: 2rem;
@@ -175,23 +184,29 @@ a#show_nav {
     height: 40px;
 
 }
-.news .item_image img {
-    width: 5rem;
-    position: fixed;
-    right: 0;
-    top: 0;
+
+.news {
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
 }
 
+.news .item_title {
+    width: 100%;
+}
+
+.news .item_image {
+    width: 7rem;
+    float: right;
+    margin-bottom: 1rem;
+}
 .date {
     font-style: italic;
     font-weight: 200;
 }
 
-.newsimage {
-    width: 25rem;
-    display: block;
-    padding: 1rem 0;
-}
 
 form input[type="string"], form input[type="email"], textarea {
     width: 100%;
