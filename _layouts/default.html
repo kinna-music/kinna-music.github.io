@@ -12,10 +12,58 @@
 </noscript>
 
 <body>
-{{ content }}
-    <script type="text/javascript">
-        /* Add Javascript here */
-    </script>
+    <!-- <div id="bg">
+         <video id="bgvideo" autoplay muted loop>
+         <source src="/static/videos/kinna30s-720p.webm" type="video/webm"> 
+         <source src="/static/videos/kinna30s-720p.ogv" type="video/ogg"> 
+         <source src="/static/videos/kinna30s-720p.mp4" type="video/mp4">
+         <source src="/static/videos/kinna30s-720p.3gp" type="video/3gp">
+    Your browser does not support the video tag.
+    </video>
+    </div> -->
+
+
+{% include menu.html %}
+
+    <div id="content">
+        <div id="content-width">
+            {{ content }}
+        </div>
+    </div>
+
+<script type="text/javascript">
+ function ready(fn) {
+     if (document.addEventListener) {
+         document.addEventListener('DOMContentLoaded', fn);
+     } else {
+         document.attachEvent('onreadystatechange', function() {
+             if (document.readyState === 'interactive')
+                 fn();
+         });
+     }
+ }
+
+ ready(function() {
+
+     if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+         /* browser with either Touch Events of Pointer Events running on touch-capable device */
+         var b = document.getElementsByTagName('body');
+         if (b.length > 0) {
+             if (b[0].classList) {
+                 b[0].classList.add('touch');
+             } else {
+                 b[0].className += ' ' + 'touch';
+             }
+         }
+         kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+         kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
+     }
+ });
+
+
+</script>
+
+
 </body>
 
 </html>

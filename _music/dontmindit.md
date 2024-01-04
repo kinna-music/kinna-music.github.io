@@ -2,13 +2,15 @@
 layout: music
 title: "Don't mind it"
 date: 22/9/2021
-publish: true
+publish: false
 order: 40
 summary: "'Don't Mind It' explores the desire for another person to dictate your life and control who you are."
 bandcamp: 
-spotify: 
+bandcamp-album-no:
+spotify: album/3q07sVdACeJcx3t1lf5p41?si=-QnFIDVQRxi8MAokUGo_cg 
 applemusic: 
 soundcloud: dont-mind-it
+soundcloud-track-no: 921395446
 default-source: soundcloud
 image: https://i1.sndcdn.com/artworks-Yda2R1xhvrEDJgqR-TmrBNA-t500x500.jpg
 ---

@@ -2,7 +2,7 @@
 layout: music
 title: Away
 date: 22/9/2020
-publish: true
+publish: false
 order: 10
 summary: Don't worry, be happy
 bandcamp: testband

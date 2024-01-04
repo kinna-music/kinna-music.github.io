@@ -1,0 +1,5 @@
+No underlines on the title words
+No heading for each page, instead the word for the page you are on is bold.
+The news writing should be underneath the images at all times
+I’d rather have a background the colour of the sky
+Title words be a bit bigger and in the centre of the screen
