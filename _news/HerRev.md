@@ -8,7 +8,7 @@ tags:
   - film
 summary: Kinna sofar gig her revelation her rev new music electronic band singing debut ep new announcement release
 description: Her Revelation debut ep announcement
-image: /static/images/music/thecircle.png
+image: images.quru.com/image?src=/kinna/news/Group3_1.64.1.jpg&width=126&right=0.93438&left=0.06875
 youtube-url:
 ---
 
