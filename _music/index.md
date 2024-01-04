@@ -14,4 +14,4 @@ soundcloud:
 
 # Music
 
-{% assign content = site.music | sort: 'order' %}{% for post in content %}{% if post.publish != false %}{% if post.title != page.title %}{% include musicblock.html %}{% endif %}{% endif %}{% endfor %}
+{% assign content = site.music | sort: 'order' %}{% for post in content %}{% if post.publish == true %}{% if post.title != page.title %}{% include musicblock.html %}{% endif %}{% endif %}{% endfor %}

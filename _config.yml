@@ -12,15 +12,15 @@ pages_list:
   About: '/about'
   Feet: '/atom.xml'
 exclude:
-  - .#*
-  - /*/.#*
-  - #*
-  - /*/#*
-  - links/*
-  - static/style/#*
-  - static/style/.#*
-  - static/js/#*
-  - static/js/.#*
+  - '.#*'
+  - '/*/.#*'
+  - '#*'
+  - '/*/#*'
+  - 'links/*'
+  - 'static/style/#*'
+  - 'static/style/.#*'
+  - 'static/js/#*'
+  - 'static/js/.#*'
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

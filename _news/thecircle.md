@@ -12,5 +12,5 @@ image: /static/images/music/thecircle.png
 youtube-url:
 ---
 
-Kinna’s live album ‘The Circle’ was released on streaming platforms on Friday 22^nd^ September. Visit  <a href="https://kinna.bandcamp.com/album/the-circle-live-album" target="_new">
+Kinna’s live album ‘The Circle’ was released on streaming platforms on Friday 22<sup>nd</sup> September. Visit  <a href="https://kinna.bandcamp.com/album/the-circle-live-album" target="_new">
 Bandcamp</a> to find out more.
