@@ -12,4 +12,4 @@ image: /static/images/music/thecircle.png
 youtube-url:
 ---
 
-Following their Sofar performance at the Mockingbird Cinema in Digbeth, Her Revelation will be releasing their debut EP in May 2024.
+Following their Sofar performance at the Mockingbird Cinema in Digbeth, _Her Revelation_ will be releasing their debut EP in May 2024.

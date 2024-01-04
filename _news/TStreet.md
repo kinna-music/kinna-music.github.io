@@ -12,4 +12,4 @@ image: /static/images/music/thecircle.png
 youtube-url:
 ---
 
-In early March, Kinna will be displaying multiple new films in a solo exhibition at T Street gallery in Birmingham. The works have been created over the last few years and will include the award-winning Lights (formally displayed at the Royal Academy of Art).
+In early March, Kinna will be displaying multiple new films in a solo exhibition at T Street gallery in Birmingham. The works have been created over the last few years and will include the award-winning _Lights_ (formally displayed at the Royal Academy of Art).
