@@ -1,15 +1,15 @@
 ---
 layout: news
-title: Exhibition in T Street
-date: 03/01/2024
-publish: false
+title: Solo exhibition
+date: 04/01/2024
+publish: true
 order: 1
 tags:
   - film
-summary: Kinna is having an exhibition!
-description: Kinna’s end of course exhibition will be fab
+summary: Kinna exhibition film art music student Royal Birmingham conservatoire rbc bcu birmingham city university T street Sevven Kucuk young artist royal academy of art
+description: Kinna solo exhibition at T Street gallery Birmingham
 image: /static/images/music/thecircle.png
 youtube-url:
 ---
 
-This is going to be one hell of a good exhibition with some really cool stuff. You must come!
+In early March, Kinna will be displaying multiple new films in a solo exhibition at T Street gallery in Birmingham. The works have been created over the last few years and will include the award-winning Lights (formally displayed at the Royal Academy of Art).
