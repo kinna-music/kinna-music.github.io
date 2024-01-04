@@ -2,18 +2,16 @@
    Document:      kwf.js
    Date started:  06Oct2014
    By:            Roland Whitehead
-   Purpose:       Provide basic js functionality to kwf.biz
+   Purpose:       Provide basic js functionality to kinna.co.uk
    Requires:      Nothing just yet
-   Copyright:     Katie Walker
+   Copyright:     Kinna
    
    Last Changed:  $Date$ $Rev$ by $Author$
    
    Notable modifications:
    Date       By    Details
    =========  ====  ============================================================
-   06Oct2014  RW    New
-   01Dec2014  RW    Added in hideById and showById
-   03Jul2020  RW    Add is_touch_device
+   03Jan2024  RW    New
  */
 
 /**** Private interface ****/
@@ -27,7 +25,7 @@ function is_touch_device() {
     }  
 }
 
-function kwfAddEventListener(el, eventName, handler) {
+function kinnaAddEventListener(el, eventName, handler) {
     /* Function to add events post DOM load */
     if (el != null) {
         if (el.addEventListener) {
@@ -41,7 +39,7 @@ function kwfAddEventListener(el, eventName, handler) {
     return false;
 }
 
-function kwfRemoveEventListener(el, eventName, handler) {
+function kinnaRemoveEventListener(el, eventName, handler) {
 /* Function to add events post DOM load */
     if (el != null) {
         if (el.removeEventListener) {
@@ -118,14 +116,14 @@ function show_nav(e){
     }*/
     var b = document.body; 
     if (b != null) {
-        kwfAddEventListener(b, 'click', hide_nav);
+        kinnaAddEventListener(b, 'click', hide_nav);
     }
     return false;
 }
 
 function hide_nav(e){
     e.stopPropagation();
-    hideById('menu_work_sub');
+    // hideById('menu_work_sub');
     hideById('nav');
     /*var el = document.getElementById('nav');
     if (el != null ) {
@@ -136,37 +134,11 @@ function hide_nav(e){
     }*/
     var b = document.body;
     if (b != null) {
-        kwfRemoveEventListener(b, 'click', hide_nav);
+        kinnaRemoveEventListener(b, 'click', hide_nav);
     }
     return false;
 }
 
-
-
-function flipCell(e){
-   /* e.preventDefault(); */
-    var el_list = this.getElementsByClassName('cell_back');
-    if (el_list.length > 0 ) {
-        if (el_list[0].classList)
-            el_list[0].classList.add('show');
-        else
-            el_list[0].className += ' ' + 'show';
-    }
-    /* return false; */
-}
-
-function unflipCell(e, action){
-    if (action != "Go") 
-        e.preventDefault();
-    var el_list = this.getElementsByClassName('cell_back');
-    if (el_list.length > 0 ) {
-        if (el_list[0].classList)
-            el_list[0].classList.remove('show');
-        else
-            el_list[0].show = el_list[0].show.replace(new RegExp('(^|\\b)' + show.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-    }
-    /* return false; */
-}
 
 function goToUrl(addr){
     if (addr != null ) {
