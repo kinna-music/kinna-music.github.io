@@ -8,7 +8,7 @@ tags:
   - film
 summary: Kinna exhibition film art music student Royal Birmingham conservatoire rbc bcu birmingham city university T street Sevven Kucuk young artist royal academy of art
 description: Kinna solo exhibition at T Street gallery Birmingham
-image: images.quru.com/image?src=kinna/news/Screenshot%202024-01-04%20at%2015.59.19.png&width=126&height=126
+image: ///images.quru.com/image?src=kinna/news/Screenshot%202024-01-04%20at%2015.59.19.png&width=126&height=126
 youtube-url:
 ---
 

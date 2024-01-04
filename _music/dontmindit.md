@@ -2,7 +2,7 @@
 layout: music
 title: "Don't mind it"
 date: 22/9/2021
-publish: true
+publish: false
 order: 40
 summary: "'Don't Mind It' explores the desire for another person to dictate your life and control who you are."
 bandcamp: 
