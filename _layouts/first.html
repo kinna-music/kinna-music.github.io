@@ -45,6 +45,7 @@
 
  ready(function() {
 
+     /*if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0) || (true)) {*/
      if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
          /* browser with either Touch Events of Pointer Events running on touch-capable device */
          var b = document.getElementsByTagName('body');
@@ -57,6 +58,8 @@
          }
          kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
          kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
+     } else {
+         kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
      }
  });
 

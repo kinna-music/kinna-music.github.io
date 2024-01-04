@@ -31,37 +31,39 @@
         </div>
     </div>
 
-<script type="text/javascript">
- function ready(fn) {
-     if (document.addEventListener) {
-         document.addEventListener('DOMContentLoaded', fn);
-     } else {
-         document.attachEvent('onreadystatechange', function() {
-             if (document.readyState === 'interactive')
-                 fn();
-         });
-     }
- }
-
- ready(function() {
-
-     if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
-         /* browser with either Touch Events of Pointer Events running on touch-capable device */
-         var b = document.getElementsByTagName('body');
-         if (b.length > 0) {
-             if (b[0].classList) {
-                 b[0].classList.add('touch');
-             } else {
-                 b[0].className += ' ' + 'touch';
-             }
+    <script type="text/javascript">
+     function ready(fn) {
+         if (document.addEventListener) {
+             document.addEventListener('DOMContentLoaded', fn);
+         } else {
+             document.attachEvent('onreadystatechange', function() {
+                 if (document.readyState === 'interactive')
+                     fn();
+             });
          }
-         kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
-         kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
      }
- });
 
+     ready(function() {
 
-</script>
+         /*if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0) || (true)) {*/
+         if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+             /* browser with either Touch Events of Pointer Events running on touch-capable device */
+             var b = document.getElementsByTagName('body');
+             if (b.length > 0) {
+                 if (b[0].classList) {
+                     b[0].classList.add('touch');
+                 } else {
+                     b[0].className += ' ' + 'touch';
+                 }
+             }
+             kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+             kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
+         } else {
+             kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+         }
+     });
+
+    </script>
 
 
 </body>

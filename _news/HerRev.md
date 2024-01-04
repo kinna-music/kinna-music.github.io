@@ -12,4 +12,4 @@ image: ///images.quru.com/image?src=/kinna/news/Group3_1.64.1.jpg&width=126&righ
 youtube-url:
 ---
 
-Following their Sofar performance at the Mockingbird Cinema in Digbeth, _Her Revelation_ will be releasing their debut EP in May 2024.
+Following their Sofar performance at the Mockingbird Cinema in Digbeth, <i>Her Revelation</i> will be releasing their debut EP in May 2024.
