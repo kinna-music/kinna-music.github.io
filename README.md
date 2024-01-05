@@ -1,11 +1,11 @@
+# kinna-music.github.io
+
+![kinna.co.uk](https://www.kinna.co.uk/static/images/kinna30s-720p.jpg)
+
 <style>
 body {padding: 0 2rem;}
 h1, h2 {padding-top: 2rem;}
 </style>
-
-# kinna-music.github.io
-
-![kinna.co.uk](https://www.kinna.co.uk/static/images/kinna30s-720p.jpg)
 
 ## Introduction
 
