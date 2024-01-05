@@ -24,14 +24,8 @@ html {
     font-weight: 200;  
 }
 
-/* Top:    #f9f1fe
-   Bottom: #f0eafd */
-
 body {
     margin: 0 auto;
-    /*background-image: linear-gradient(#f9fff, #f5fff);*/
-    /* background: url(/static/images/background_1.1.2.png);
-       background-size: cover; */
     background-color: #f7feff;
     height: 100%;
 }
@@ -70,7 +64,6 @@ hr {
 
 #menuframe {
     width: 38rem;
-    /*     padding: 0 2rem 0 2rem; */
     margin: auto;
     height: 234px;
     position: fixed;
@@ -84,16 +77,12 @@ hr {
 
 #nav-center {
     width: 100%;
-    /*     max-width: 38rem; */
-    /*     margin: 4rem auto 0 auto; */
     margin: auto;
     padding: 2rem 0;
 }
 
 #menu {
     padding-top: 7rem;
-    /* position: relative;
-       left: -9rem; */
 }
 
 .logo {
@@ -118,8 +107,6 @@ a#show_nav {
 }
 
 .link {
-    /*     width: 5rem; */
-    /*     text-align: left; */
     color: black;
     text-decoration: none;
 }
@@ -135,7 +122,6 @@ a#show_nav {
 #content {
     height: 100%;
     padding: 234px 2rem 3rem 2rem;
-    /*     z-index: 200; */
     margin: auto auto;
 }
 
@@ -331,25 +317,6 @@ a#show_nav {
 	display: none;
 }
 
-    /* #mask, .mask {
-	   z-index: 5;
-	   height: 100%;
-	   width: 100%;
-	   position: fixed;
-	   top: 0;
-	   left:  0;
-	   display: none;
-       } */
-
-/* @group Dropdowns */
-
-/* Drop-down menu box styles (initially hidden) */
-/*ul.menu_sub {
-	display: list-item;
-	padding-left: 0;
-	z-index: 7;
-} DELETEME */
-
 ul.menu_sub a {
 	width: 3rem !important;
 	padding-left: 1rem;
@@ -516,10 +483,4 @@ ul#menu li a:hover, ul#menu ul li a:hover {
         max-width: 100%;
     }
 }
-
-
-@media only screen and (min-width: 960px){
-
-}
-
 
