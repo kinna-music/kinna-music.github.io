@@ -26,7 +26,7 @@ or use [github.com](https://github.com/kinna-music/kinna-music.github.io) to hel
 
 Before you make any changes, create a branch from _master_ and commit all your changes to that branch. When you have completed that, create a pull request to merge your changes to _master_. Again, this is easiest done on the [github.com](https://github.com/kinna-music/kinna-music.github.io) site.
 
-To test your changes locally, open up a terminal window (using terminal, iTerm or even the terminal in VSCode) and, from with the project directory, run:
+To test your changes locally, open up a terminal window (using terminal, iTerm or even the terminal in VSCode) and, from within the project directory, run:
 
 ``` bash
 jekyll clean && jekyll serve -w
