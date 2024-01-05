@@ -5,23 +5,7 @@
 {% include head.html %}
 </head>
 
-<noscript>
-    <div class="noscript">
-	    <p>This site requires JavaScript. Please enable JavaScript in you browser settings.</p>
-	</div>
-</noscript>
-
 <body>
-    <!-- <div id="bg">
-         <video id="bgvideo" autoplay muted loop>
-         <source src="/static/videos/kinna30s-720p.webm" type="video/webm"> 
-         <source src="/static/videos/kinna30s-720p.ogv" type="video/ogg"> 
-         <source src="/static/videos/kinna30s-720p.mp4" type="video/mp4">
-         <source src="/static/videos/kinna30s-720p.3gp" type="video/3gp">
-    Your browser does not support the video tag.
-    </video>
-    </div> -->
-
 
 {% include menu.html %}
 
@@ -45,7 +29,6 @@
 
      ready(function() {
 
-         /*if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0) || (true)) {*/
          if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
              /* browser with either Touch Events of Pointer Events running on touch-capable device */
              var b = document.getElementsByTagName('body');
@@ -60,11 +43,17 @@
              kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
          } else {
              kinnaAddEventListener(document.getElementById('show_nav'), 'click', show_nav);
+             kinnaAddEventListener(document.getElementById('show_nav'), 'touchend', show_nav);
          }
      });
 
     </script>
 
+    <noscript>
+        <div class="noscript">
+	        <p>This site requires JavaScript. Please enable JavaScript in you browser settings.</p>
+	    </div>
+    </noscript>
 
 </body>
 
