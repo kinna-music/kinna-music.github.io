@@ -6,7 +6,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<iframe width="540" height="303" src="{{ page.youtube-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe class="responsive-iframe" src="{{ page.youtube-embed }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
         
 {{ content }}
 

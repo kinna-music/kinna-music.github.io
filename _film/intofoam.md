@@ -7,7 +7,9 @@ order: 20
 summary: Into Foam is a visual and sonic exploration of The Little Mermaid by Hans Christian Andersen.
 description: Into Foam is a visual and sonic exploration of The Little Mermaid by Hans Christian Andersen.
 image: "/static/images/film/IntoFoam.jpg"
-youtube-url: "https://www.youtube.com/embed/WGZxArRmKz4?si=LRRE5XcU_KJZ9Mxl"
+youtube-embed: "https://www.youtube.com/embed/WGZxArRmKz4?si=LRRE5XcU_KJZ9Mxl"
+youtube-url: "https://www.youtube.com/watch?v=WGZxArRmKz4"
+duration: 601
 ---
 
 # Into Foam

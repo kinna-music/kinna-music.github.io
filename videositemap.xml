@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+    {% for page in site.film %}{% if page.layout != "nil" %}{% if page.title != Film %}<url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+            <video:video>
+                <video:thumbnail_loc>https://www.kinna.co.uk{{ page.thumbnail }}</video:thumbnail_loc>
+                <video:title>{{ page.title }}</video:title>
+                <video:description>{{ page.description }}</video:description>
+                <video:content_loc>{{ site.url }}{{ page.url }}</video:content_loc>
+                {% if page.youtube-url %}<video:player_loc>{{ page.youtube-url }}</video:player_loc>{% endif %}
+                {% if page.duration %}<video:duration>{{ page.duration }}</video:duration>{% endif %}
+                {% if page.date %}<video:publication_date>{{ page.date | to_to_xmlschema }}</video:publication_date>{% endif %}
+                <video:family_friendly>yes</video:family_friendly>
+                {% if site.creator %}<video:uploader info="{{ site.url }}/about.html">{{ site.creator }}
+       </video:uploader>{% endif %}
+                <video:live>no</video:live>
+            </video:video>
+       {% if page.date %}<lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+       {% else %}<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>{% endif %}
+    </url>
+    {% endif %}{% endif %}{% endfor %}    
+</urlset>

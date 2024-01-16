@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+ {
+     "@context": "http://schema.org",
+     "video": [
+         {
+             "@type": "VideoObject", 
+             "name": "{{ page.title }}",
+             "description": "{{ page.description }}",
+             "thumbnailUrl": ["{{ site.url }}{{ page.image }}"],
+             "contentUrl": "{{ site.url }}{{ page.url }}",
+             "embedUrl": "{{ page.youtube-embed }}",
+             "uploadDate": "{{ page.date | date_to_xmlschema }}",
+         }
+
+     ]
+ }
+</script>
