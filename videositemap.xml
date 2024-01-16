@@ -5,7 +5,7 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-    {% for page in site.film %}{% if page.layout != "nil" %}{% if page.title != Film %}<url>
+    {% for page in site.film %}{% if page.layout != "nil" %}{% if page.title != "Film" %}<url>
         <loc>{{ site.url }}{{ page.url }}</loc>
             <video:video>
                 <video:thumbnail_loc>https://www.kinna.co.uk{{ page.thumbnail }}</video:thumbnail_loc>
