@@ -11,10 +11,10 @@ layout: null
                 <video:thumbnail_loc>https://www.kinna.co.uk{{ page.thumbnail }}</video:thumbnail_loc>
                 <video:title>{{ page.title }}</video:title>
                 <video:description>{{ page.description }}</video:description>
-                <video:content_loc>{{ site.url }}{{ page.url }}</video:content_loc>
+                <video:content_loc>{{ site.url }}{{ page.youtube-embed }}</video:content_loc>
                 {% if page.youtube-url %}<video:player_loc>{{ page.youtube-url }}</video:player_loc>{% endif %}
                 {% if page.duration %}<video:duration>{{ page.duration }}</video:duration>{% endif %}
-                {% if page.date %}<video:publication_date>{{ page.date | to_to_xmlschema }}</video:publication_date>{% endif %}
+                {% if page.date %}<video:publication_date>{{ page.date | date_to_xmlschema }}</video:publication_date>{% endif %}
                 <video:family_friendly>yes</video:family_friendly>
                 {% if site.creator %}<video:uploader info="{{ site.url }}/about.html">{{ site.creator }}
        </video:uploader>{% endif %}
