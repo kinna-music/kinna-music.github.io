@@ -7,7 +7,10 @@ order: 10
 summary: Lights was displayed at the Royal Academys 2023 Summer Exhibition and was chosen for the Under-35 Arts Club Award.
 description: Kinna has been producing exciting fims.
 image: "/static/images/film/lights.jpg"
-youtube-url: ///www.youtube.com/embed/8VqQ-mX7kyk?si=EKi0TKoeZCx5c2jZ
+image: "/static/images/film/lights.jpg"
+youtube-embed: "https://www.youtube.com/embed/8VqQ-mX7kyk?si=EKi0TKoeZCx5c2jZ"
+youtube-url: "https://www.youtube.com/watch?v=8VqQ-mX7kyk"
+duration: 744
 ---
 
 <div class="main" markdown="1">
