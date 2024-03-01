@@ -5,11 +5,7 @@ date: 01/08/2023
 publish: true
 order: 10
 summary: Lights was displayed at the Royal Academys 2023 Summer Exhibition and was chosen for the Under-35 Arts Club Award.
-<<<<<<< HEAD
 description: A pair of out of sync harbour lights drive a minimalist composition.
-=======
-description: A pair of out of sync harbour lights drive a minimalist composition.x
->>>>>>> master
 image: "/static/images/film/lights.jpg"
 youtube-embed: "https://www.youtube.com/embed/8VqQ-mX7kyk?si=EKi0TKoeZCx5c2jZ"
 youtube-url: "https://www.youtube.com/watch?v=8VqQ-mX7kyk"

@@ -1,23 +1,24 @@
 ---
 layout: film
-title: Lights
+title: Bricks
 date: 01/08/2023
 publish: true
-order: 10
-summary: Lights was displayed at the Royal Academys 2023 Summer Exhibition and was chosen for the Under-35 Arts Club Award.
-description: A pair of out of sync harbour lights drive a minimalist composition.x
-image: "/static/images/film/lights.jpg"
-youtube-embed: "https://www.youtube.com/embed/8VqQ-mX7kyk?si=EKi0TKoeZCx5c2jZ"
-youtube-url: "https://www.youtube.com/watch?v=8VqQ-mX7kyk"
-duration: 744
+order: 20
+summary: Different bricks from Birmingham's city centre with soundscapes surrounding them
+description: Different bricks from Birmingham's city centre with soundscapes surrounding them.
+image: "/static/images/film/bricks.png"
+youtube-embed: "https://www.youtube.com/embed/1vfLQYbeD9Q?si=sHxvAaFgQD1zxmmp"
+youtube-url: "https://www.youtube.com/watch?v=1vfLQYbeD9Q"
+duration: 2639
 ---
 
-<div class="main" markdown="1">
+# Bricks
 
-**Winner of the RA Arts Club Award 2023**
+This film captures different bricks from Birmingham's city centre, and the soundscapes around them, which draws the viewers' attention to a core component of our society that we often take for granted.
 
-&lsquo;Lights&rsquo; was displayed at the Royal Academy&rsquo;s 2023 Summer Exhibition and was chosen for the Under-35 Arts Club Award.
 
-&ldquo;The idea for this film came when I was on an evening walk at Littlehampton beach. I found the harbour lights particularly beautiful and I noticed that they were slightly out of sync with each other. The gradual rhythmic change of the lights inspired a two-part minimalistic composition, where the treble parts follow the green light and the bass parts follow the red light. In this recording, only the violin and cello are present throughout the entire film. The other instruments (including the alto saxophone, guitar, xylophone, piano, trombone and bass clarinet) are introduced at different points during the film, to create textural change. The timing between the two musical parts slowly shifts, with the lights, alongside the gradual darkening of the harbour.&rdquo;
 
-</div>
+In early 2023 I became slightly obsessed with bricks! I want the viewer to notice the beauty in each brick filmed and to become more aware of the useful things we take for granted.
+
+By filming long, still, close-up shots of these bricks, the viewer is encouraged to explore the visuals presented to them. Watching this film becomes an exploratory experience, instead of a passive one. When filming, I recorded the soundscape surrounding each individual brick. By not being able to see what is producing the sounds, I found that I paid more attention to the sonic environment and this also lead me to imagine what the brick may be witnessing off-screen.
+

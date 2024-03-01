@@ -6,10 +6,10 @@ publish: true
 order: 5
 summary: Live Harpsichord Set - CODA 2023 at the Eastside Jazz Club
 description: Live Harpsichord Set - CODA 2023 at the Eastside Jazz Club
-image: "/static/images/film/IntoFoam.jpg"
+image: "/static/images/music/harpsichordsongs.png"
 youtube-embed: "https://www.youtube.com/embed/1gRGE8nX6ac?si=LRRE5XcU_KJZ9Mxl"
 youtube-url: "https://youtu.be/1gRGE8nX6ac"
-duration: 665
+duration: 424
 ---
 
 # Harpsichord songs set
