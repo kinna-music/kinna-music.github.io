@@ -1,10 +1,10 @@
 ---
 layout: film
-title: Live Harpsichord Set
+title: Harpsichord Set
 date: 20/06/2023
 publish: true
 order: 15
-summary: Live Harpsichord Set - CODA 2023 at the Eastside Jazz Club
+summary: Live Harpsichord Set CODA 2023 at the Eastside Jazz Club
 description: Live Harpsichord Set - CODA 2023 at the Eastside Jazz Club
 image: "/static/images/music/harpsichordsongs.png"
 youtube-embed: "https://www.youtube.com/embed/1gRGE8nX6ac?si=LRRE5XcU_KJZ9Mxl"
