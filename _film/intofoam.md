@@ -3,7 +3,7 @@ layout: film
 title: Into Foam
 date: 01/08/2023
 publish: true
-order: 30
+order: 25
 summary: Into Foam is a visual and sonic exploration of The Little Mermaid by Hans Christian Andersen.
 description: Into Foam is a visual and sonic exploration of The Little Mermaid by Hans Christian Andersen.
 image: "/static/images/film/IntoFoam.jpg"

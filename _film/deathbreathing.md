@@ -6,8 +6,10 @@ publish: true
 order: 20
 summary: death breathing viol window music film focus
 description: Death Breathing is a piece for film and layered viol music
-image: "/static/images/film/IntoFoam.jpg"
-youtube-url: ///www.youtube.com/embed/I3nK2hg3RgU?si=GREe9OYfX6M_S2Y-
+image: "///images.quru.com/original?src=kinna/filmstills/Death+breathing+pic+2.png&width=450"
+youtube-embed: "https://www.youtube.com/embed/I3nK2hg3RgU?si=nlSvXzq4-q_roykM"
+youtube-url: "https://www.youtube.com/watch?v=I3nK2hg3RgU"
+duration: 800
 ---
 
 # Death Breathing

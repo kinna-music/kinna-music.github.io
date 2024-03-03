@@ -3,7 +3,7 @@ layout: music
 title: "The Circle (live)"
 date: 22/8/2023
 publish: true
-order: 10
+order: 5
 summary: Live collaboration with Adam Roberts & Tom Phillips.
 bandcamp: album/the-circle-live-album
 bandcamp-album-no: 2863743488

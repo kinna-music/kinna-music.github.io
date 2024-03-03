@@ -3,11 +3,13 @@ layout: film
 title: What Have I Lost?
 date: 06/02/2023
 publish: true
-order: 25
+order: 30
 summary: what have I lost boat with music
 description: What Have I Lost? is written for the viola, cello and double bass
-image: "/static/images/film/IntoFoam.jpg"
-youtube-url: "https://www.youtube.com/embed/tAEzteDubQQ"
+image: "///images.quru.com/original?src=kinna/filmstills/Screenshot+2023-04-24+at+12.28.39.png&width450"
+youtube-embed: "https://www.youtube.com/embed/tAEzteDubQQ?si=Ay_FeI0hnjENUXIy"
+youtube-url: "https://www.youtube.com/watch?v=tAEzteDubQQ"
+duration: 303
 ---
 
 # What Have I Lost
