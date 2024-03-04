@@ -14,7 +14,7 @@ duration: 2639
 
 # Bricks
 
-This is a four-minute extract of 'Bricks':
+This is a four-minute extract of 'Bricks' (43-minutes in total).
 
 "Earlier this year, I became slightly obsessed with bricks! I wanted the viewer to notice the beauty in each brick I filmed and to become more aware of the useful things we take for granted.
 
