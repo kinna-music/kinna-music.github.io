@@ -6,7 +6,7 @@ publish: true
 order: 10
 summary: 
 description: Her Revelation Live at the Eastside Jazz Club June 2023
-image: "/static/images/music/herrevelationlive.jpg"
+image: "///images.quru.com/image?src=/kinna/musicart/herrevelationlive.jpg&width=450&quality=75"
 youtube-embed: "https://www.youtube.com/embed/dSSTJd54cLQ?si=LRRE5XcU_KJZ9Mxl"
 youtube-url: "https://youtu.be/dSSTJd54cLQ"
 duration: 2050
