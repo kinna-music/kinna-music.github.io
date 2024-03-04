@@ -238,6 +238,7 @@ form input[type="string"], form input[type="email"], textarea {
     margin-right: 0px;
     margin-bottom: 0.5rem;
     margin-left: 0px;
+    font-family: 'Be Vietnam Pro', 'Geneva', sans-serif;
 }
 
 label {
@@ -252,15 +253,17 @@ label span {
 
 textarea {
     vertical-align: top;
+    width: 65%;
 }
 
 button {
     width: 10rem;
     height: 3rem;
     margin-top: 1rem;
+    margin-left: 10rem;
     font-family: 'Be Vietnam Pro', Geneva, sans-serif;
     font-size: 1rem;
-    background-color: #b9f5ff;
+    background-color: #f7feff00;
     border-radius: 10px;
     border-color: #dcf1f4;
 }
