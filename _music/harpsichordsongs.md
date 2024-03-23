@@ -1,6 +1,6 @@
 ---
 layout: film
-title: Harpsichord songs set
+title: Harpsichord songs
 date: 20/06/2023
 publish: true
 order: 15
