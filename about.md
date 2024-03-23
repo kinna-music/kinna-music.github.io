@@ -14,6 +14,7 @@ Alongside composition and film, Kinna is an accomplished singer and instrumental
 Kinna is currently completing a degree in composition at the Royal Birmingham Conservatoire. Previously she studied composition at the Junior Department of the Royal Academy of Music.
 
 
+
 _"Kinna’s work leads from a sonic perspective to bring the daily activity of people into the metaphysical, creating a sense of awareness of our changing world and climate with a calm stance; which aims to leave the viewer not in a state of fear for our collective environmental and social impact, but with an understanding of the one eco-system we all reside within and the very nature of our interconnectedness."_ - T Street Gallery, on Kinna’s solo exhibition ‘Dyad’
 
 
