@@ -1,6 +1,6 @@
 ---
 layout: film
-title: Harpsichord Set
+title: Harpsichord songs set
 date: 20/06/2023
 publish: true
 order: 15
@@ -11,7 +11,5 @@ youtube-embed: "https://www.youtube.com/embed/1gRGE8nX6ac?si=LRRE5XcU_KJZ9Mxl"
 youtube-url: "https://youtu.be/1gRGE8nX6ac"
 duration: 424
 ---
-
-# Harpsichord songs set
 
 This set features a few unreleased songs (Woman-child, M. Oppenheim, Liar and Heart House), for voice and harpsichord, performed live at the Eastside Jazz Club (CODA, Royal Birmingham conservatoire June 2023).

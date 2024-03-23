@@ -6,13 +6,11 @@ publish: true
 order: 20
 summary: death breathing viol window music film focus
 description: Death Breathing is a piece for film and layered viol music
-image: "///images.quru.com/image?src=kinna/filmstills/Death+breathing+pic+2.png&width=450"
+image: "///images.quru.com/image?src=kinna/filmstills/Death+breathing+pic+2.png"
 youtube-embed: "https://www.youtube.com/embed/I3nK2hg3RgU?si=nlSvXzq4-q_roykM"
 youtube-url: "https://www.youtube.com/watch?v=I3nK2hg3RgU"
 duration: 800
 ---
-
-# Death Breathing
 
 The changing focus in this film imitates the act of breathing, particularly my own, as I was changing the focus of the lens in time with my own slow breath. I wanted to capture the claustrophobic version of living that cities often demand from us. Coincidentally a crow landed on the building outside and this reminded me of the many ancient myths and beliefs we attribute to them. Crows are often seen as the bringers of death (one crow for sorrow etc.), hence the title being 'Death Breathing'. This also links to explorations of the death of the mind and ego, which can come about through mindful breathing and meditation. In my eyes, the strange juxtaposition of claustrophobic buildings and expansive breath meditation creates an unsettling atmosphere in the film.
 

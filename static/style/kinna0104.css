@@ -68,7 +68,7 @@ hr {
 }
 
 #sociallinks {
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem 2rem;
 }
 
 #sociallinks img.social{
@@ -147,7 +147,7 @@ a#show_nav {
 
 #content {
     height: 100%;
-    padding: 234px 2rem 3rem 2rem;
+    padding: 174px 2rem 3rem 2rem;
     margin: auto auto;
 }
 
@@ -157,7 +157,7 @@ a#show_nav {
 }
 
 #content h1 {
-    display: none;
+    /*display: none;*/
     font-weight: 400;
     font-size: 130%;
     padding-bottom: 2rem;
@@ -302,6 +302,23 @@ iframe .sound__artwork {
 
 .sound__content {
     left: 0 !important;
+}
+
+#stills-container {
+    width: 100%;
+}
+
+#stills-container .cell {
+    display: inline-block;
+    width: 45%;
+    max-width: 300px;
+    margin: 0.5rem 1rem 0.5rem 0;
+    border: 1pt solid black;
+    background-color: #ddd;
+}
+
+.gallery_image{
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 760px){
@@ -488,6 +505,7 @@ ul#menu li a:hover, ul#menu ul li a:hover {
     #content {
         padding-top: 150px;
     }
+
 
     .item_title {
         margin-bottom: 1rem;

@@ -16,7 +16,7 @@
         </div>
     </div>
 
-{% include social.html %}
+{% if page.title != "index" %}{% include social.html %}{% endif %}
     
     <script type="text/javascript">
      function ready(fn) {

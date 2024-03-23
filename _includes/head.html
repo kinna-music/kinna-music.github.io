@@ -16,12 +16,36 @@
 
     <!-- - JS -->
     <script src="/static/js/kinna0100.js" type="text/javascript"></script>
+    <script src="https://images.quru.com/static/js/canvas_view.min.js" type="text/javascript"></script>
+    <script src="https://images.quru.com/static/js/gallery_view.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+     QU.whenReady(function() {
+
+       // Zoomer/gallery options and events
+       var viewer_opts = { showcontrols: 'yes' };
+       var gallery_opts = { viewer: viewer_opts };
+       var events = {};
+
+       // Init image zoomer/gallery
+       if (document.getElementsByClassName('gallery_image').length > 1) {
+           gallery_view_init_all_fullscreen('gallery_image', gallery_opts, events);
+       }
+       else {
+           canvas_view_init_all_images('gallery_image', viewer_opts, events);
+       }
+     });
+    </script>
 
     <!-- CSS -->
     <style>
      @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,400;1,200&display=swap');
     </style>
     <link rel="stylesheet" href="/static/style/kinna0104.css">
+
+    <link rel="stylesheet" href="//images.quru.com/static/styles/canvas_view.css" type="text/css" />
+    <link rel="stylesheet" href="//images.quru.com/static/styles/gallery_view.css" type="text/css" />
+
     
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">

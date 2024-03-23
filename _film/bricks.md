@@ -6,13 +6,11 @@ publish: true
 order: 15
 summary: Different bricks from Birmingham's city centre with soundscapes surrounding them
 description: Different bricks from Birmingham's city centre with soundscapes surrounding them.
-image: "///images.quru.com/image?src=kinna/filmstills/bricks.png&width=450"
+image: "///images.quru.com/image?src=kinna/filmstills/bricks.png"
 youtube-embed: "https://www.youtube.com/embed/1vfLQYbeD9Q?si=sHxvAaFgQD1zxmmp"
 youtube-url: "https://www.youtube.com/watch?v=1vfLQYbeD9Q"
 duration: 2639
 ---
-
-# Bricks
 
 This is a four-minute extract of 'Bricks' (43-minutes in total).
 

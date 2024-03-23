@@ -6,13 +6,11 @@ publish: true
 order: 10
 summary: ligths harbour with instrumental music
 description: Lights is a film of Littlehampton harbour with isntrumental music
-image: "///images.quru.com/image?src=kinna/filmstills/Lights.png&width=450"
+image: "///images.quru.com/image?src=kinna/filmstills/Lights.png"
 youtube-embed: "https://www.youtube.com/embed/UMIp3hPnrqs?si=Lly4N1DICf2MTtdc"
 youtube-url: "https://youtu.be/UMIp3hPnrqs"
 duration: 242
 ---
-
-# Lights
 
 'Lights' was featured in the Royal Academy Summer Exhibition 2023 and was awarded the Arts Club Under-35 award.
 
