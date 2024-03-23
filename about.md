@@ -2,8 +2,16 @@
 layout: default
 title: About Kinna
 ---
-
-![Kinna](/static/images/kinna_bw325.jpg)
+<div id="about-head">
+    <div id="about-portrait"><img src="/static/images/kinna_bw325.jpg" alt="Kinna"></div>
+    <div id="about-social">
+        <a href="https://www.instagram.com/kinnartmusic/" target="_new"><img src="/static/images/instagram60.jpg" alt="instagram" class="social first" class="instagram"></a><br/>
+        <a href="https://www.youtube.com/@kinnartmusic" target="_new"><img src="/static/images/youtube60.png" alt="Youtube" class="social" class="youtube"></a><br/>
+        <a href="https://kinna.bandcamp.com" target="_new"><img src="/static/images/bandcamp-square-64.png" alt="Bandcamp" class="social" class="bandcamp"></a><br/>
+        <a href="https://open.spotify.com/artist/2wfge2Q98GmShjd3pE8cDO" target="_new"><img src="/static/images/spotify60.png" alt="Spotify" class="social last" class="spotify"></a><br/>
+        <a href="https://soundcloud.com/kinnamusic" target="_new"><img src="/static/images/soundcloud60.jpg" alt="soundcloud" class="social" class="soundcloud"></a>
+    </div> 
+</div>
 
 Kinna is a British composer, singer, visual artist and musician. Her work is multi-faceted and includes songwriting, concert compositions, art film, music/sound production and performing. Inspired by American minimalist composers, British art rock musicians and installation artists, Kinna draws influences from many artistic disciplines to create eclectic and exciting new work.
 
