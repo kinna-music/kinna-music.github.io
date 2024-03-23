@@ -3,8 +3,6 @@ layout: default
 title: About Kinna
 ---
 
-# About Kinna
-
 ![Kinna](/static/images/kinna_bw325.jpg)
 
 Kinna is a British composer, singer, visual artist and musician. Her work is multi-faceted and includes songwriting, concert compositions, art film, music/sound production and performing. Inspired by American minimalist composers, British art rock musicians and installation artists, Kinna draws influences from many artistic disciplines to create eclectic and exciting new work.

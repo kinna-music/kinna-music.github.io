@@ -3,8 +3,6 @@ layout: default
 title: Contact
 ---
 
-# Contact Kinna
-
 <form
  action="https://formspree.io/f/xeqbkonw"
  method="POST"
