@@ -10,6 +10,5 @@ image:
 youtube-url:
 ---
 
-# Film
 
 {% assign content = site.film | sort: 'order' %}{% for post in content %}{% if post.publish != false %}{% if post.title != page.title %}{% include filmblock.html %}{% endif %}{% endif %}{% endfor %}

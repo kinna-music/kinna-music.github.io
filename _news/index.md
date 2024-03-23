@@ -10,6 +10,4 @@ image:
 youtube-url:
 ---
 
-# News
-
 {% assign content = site.news | sort: 'date' | reverse %}{% for post in content %}{% if post.publish == true %}{% if post.title != page.title %}{% include newsblock.html %}{% endif %}{% endif %}{% endfor %}

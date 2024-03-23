@@ -1,0 +1,577 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html {
+    font-family: 'Be Vietnam Pro', Geneva, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 200;
+    letter-spacing: 0.02rem;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #f7feff;
+    height: 100%;
+}
+
+body#child {
+    margin: 0 auto;
+}
+
+hr {
+    margin: 1.5rem 0 1rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+
+#bg {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+}
+
+#bgvideo {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menuframe, #sociallinks {
+    width: 38rem;
+    margin: auto;    
+}
+
+#sociallinks {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#sociallinks img.social{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+
+#sociallinks img.first {
+    padding-left: 0;
+}
+
+#sociallinks h4 {
+    font-size: 80%;
+    font-weight: 300;
+    padding-bottom: 0;
+}
+
+#menuframe {
+    height: 234px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 300;
+    background-image: url(/static/images/mask_1.1.4.png);
+    background-repeat: repeat-x;
+}
+
+#nav-center {
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+#menu {
+    padding-top: 7rem;
+}
+
+.logo {
+    width: 10rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a#show_nav {
+	float:  right;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 1rem;
+	margin-right: 50px;
+	background-image: url(/static/images/menu.png);
+}
+
+#sociallinks {
+    
+}
+
+.link .details  {
+    display: none;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-weight: 400;
+}
+
+.link:visited {
+    color: black;
+}
+
+#content {
+    height: 100%;
+    padding: 174px 2rem 3rem 2rem;
+    margin: auto auto;
+}
+
+#content-width {
+    max-width: 38rem;
+    margin: auto;
+}
+
+#content h1 {
+    /*display: none;*/
+    font-weight: 400;
+    font-size: 130%;
+    padding-bottom: 2rem;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect ratio for youtube */
+    margin-bottom: 2rem;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%
+}
+
+#content p {
+    padding-bottom: 1rem;
+}
+
+#content strong {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.item_title {
+    width: 10rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.item_image img {
+    width: 25rem;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.players {
+    margin: 1rem 0;
+}
+
+.players img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border: 2px none black;
+}
+
+.players a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+
+.news {
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 4rem;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
+}
+
+.news .item_title {
+    width: 100%;
+}
+
+.news .item_image {
+    width: 7rem;
+    float: right;
+    margin-bottom: 1rem;
+}
+.date {
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+form input[type="string"], form input[type="email"], textarea {
+    max-width: 100%;
+    box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    margin: 0.5rem 0 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0px;
+    margin-bottom: 0.5rem;
+    margin-left: 0px;
+    font-family: 'Be Vietnam Pro', 'Geneva', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+label span {
+    width: 10rem;
+    display: inline-block;
+}
+
+textarea {
+    vertical-align: top;
+    width: 65%;
+}
+
+button {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-family: 'Be Vietnam Pro', Geneva, sans-serif;
+    font-size: 1rem;
+    background-color: #f7feff00;
+    border-radius: 10px;
+    border-color: #dcf1f4;
+}
+
+/* embed content */
+
+iframe .sound__artwork {
+    display: none !important;
+}
+
+.sound__content {
+    left: 0 !important;
+}
+
+#stills-container {
+    width: 100%;
+}
+
+#stills-container .cell {
+    display: inline-block;
+    width: 45%;
+    max-width: 300px;
+    margin: 0.5rem 1rem 0.5rem 0;
+    border: 1pt solid black;
+    background-color: #ddd;
+}
+
+.gallery_image{
+    cursor: pointer;
+}
+
+#about-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#about-portrait {
+    width: 325;
+}
+
+#about-social {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#about-social img {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 760px){
+
+/* Main navigation layout */
+
+a#show_nav {
+	display:  none;
+}
+
+#nav {
+	position:  relative;
+	top: -4.1rem;
+	padding-top: 47px;
+    padding-left: 10rem;
+}
+    
+#nav > a {
+	display: none;
+	height: 40px;
+}
+
+#nav ul#menu {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+#nav ul#menu, #nav ul.menu_sub {
+	list-style-type: none;
+    position: relative;
+    top: -5px;
+}
+
+#nav ul#menu li {
+	display: inline;
+	float: left;
+	padding: 0;
+	}
+
+#nav ul#menu a {
+	text-align:  left;
+	text-decoration: none;
+	height: 1.8rem;
+	padding: 0 2.5rem 0 0;
+	display: inline-block;
+}
+
+#nav ul#menu a:hover {
+	font-weight: 600;
+}
+
+
+#show_nav, .show_nav {
+	display: none;
+}
+
+ul.menu_sub a {
+	width: 3rem !important;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+}
+
+ul#menu ul {
+    list-style: none;
+    padding: 0;
+    /* The next 2 styles are very important, being the ones which default the drop-down menu box to hidden */
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    z-index: 910;
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+	top: 6.5rem;
+}
+
+/* Show drop-down menu box on no_touch hover,
+   or on (inferred) yes_touch when touched */
+ul#menu > li:hover > ul {
+    /* The next 2 styles are very important, being the ones which show the drop-down menu */
+	visibility: visible;
+    opacity: 1;
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+
+/* Don't wrap text on drop-down sub-menu items */
+ul#menu ul li {
+    clear:both;
+	white-space: nowrap;
+}
+
+/* Show hover underline on drop-down sub-menu items */
+ul#menu li a:hover, ul#menu ul li a:hover {
+	/*background-color: #000080;
+	background-image: linear-gradient(#0000c2, #000080, #00005d);*/
+}
+
+/* @end */
+
+}
+
+
+@media screen and (max-width : 880px){
+	/*Make dropdown links appear inline*/
+	body {
+		max-width: 810px;
+		margin-top: 0;
+	}
+
+    #menuframe {
+        padding-left: 2rem;
+    }
+
+    #menu {
+        padding-top: 4rem;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    img.cover {
+        width: 100%;
+    }
+
+    #nav ul#menu {
+        list-style-type: none;
+        position: relative;
+        top: -5px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-align: right;
+    }
+
+    #nav ul#menu li {
+        /*         float: right; */
+        padding: 0;
+    }
+
+    button {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    #menuframe {
+        max-width: 100%;
+        height: 150px;
+        background-position: center bottom;
+        left: 0;
+        transform: none;
+    }
+
+    #nav-center {
+        margin-top: 1rem;
+    }
+
+    #nav {
+        display: none;
+        transition-property: max-height;
+        transition-duration: 0s;
+        overflow: hidden;
+    }
+
+    #nav.show {
+        display: block;
+        max-height: 360%;
+        width: 6rem;
+        padding: 1rem 36px 1rem 0;
+        transition-duration: 1s;
+        position: fixed;
+        right: 0;
+        top: 48px;
+    }
+
+    #nav ul#menu li {
+        padding-bottom: 0.5rem;
+    }
+
+    #content {
+        padding-top: 150px;
+    }
+
+
+    .item_title {
+        margin-bottom: 1rem;
+    }
+
+    .item {
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width : 450px){
+
+    #content {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #content-width {
+        width: 100%;
+    }
+
+    .item {
+        padding-bottom: 2rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    a.item_title {
+        display: block;
+        padding-bottom: 1rem;
+    }
+    
+    a.item_image img {
+        max-width: 100%;
+    }
+}
+
