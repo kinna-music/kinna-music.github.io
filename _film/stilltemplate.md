@@ -2,7 +2,7 @@
 layout: stills
 title: Stills Template
 date: 03/03/2023
-publish: true
+publish: false
 order: 20
 summary: This is a template for displaying a set of stills
 description: Stills will currently appear under the film menu
