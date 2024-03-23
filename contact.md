@@ -14,8 +14,6 @@ title: Contact
 </form>
 
 <div id="sociallinks">
-    <hr>
-    <h4>Follow me:</h4>
         <a href="https://www.instagram.com/kinnartmusic/" target="_new"><img src="/static/images/instagram60.jpg" alt="instagram" class="social first" id="instagram"></a>
         <a href="https://www.youtube.com/@kinnartmusic" target="_new"><img src="/static/images/youtube60.png" alt="Youtube" class="social" id="youtube"></a>
         <a href="https://kinna.bandcamp.com" target="_new"><img src="/static/images/bandcamp-square-64.png" alt="Bandcamp" class="social" id="bandcamp"></a>

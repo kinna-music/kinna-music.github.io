@@ -69,7 +69,8 @@ hr {
 }
 
 #sociallinks {
-    padding: 0 2rem 3rem 2rem;
+    padding-top: 3rem;
+    text-align: center;
 }
 
 #sociallinks img.social{
@@ -489,6 +490,10 @@ ul#menu li a:hover, ul#menu ul li a:hover {
     #nav ul#menu li {
         /*         float: right; */
         padding: 0;
+    }
+
+    button {
+        margin-left: 0;
     }
 }
 
