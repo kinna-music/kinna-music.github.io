@@ -1,15 +1,15 @@
 ---
 layout: news
-title: Her Revelation Debut EP
-date: 30/12/2023
+title: Her Revelation Debut Single
+date: 12/02/2025
 publish: true
-order: 1
+order: 8
 tags:
-  - film
-summary: Kinna sofar gig her revelation her rev new music electronic band singing debut ep new announcement release
-description: Her Revelation debut ep announcement
-image: ///images.quru.com/image?src=/kinna/news/Group3_1.64.1.jpg&width=126&right=0.93438&left=0.06875
+  - music
+summary: Kinna her revelation her rev new music Dare electronic band singing debut single new announcement release
+description: Her Revelation debut single announcement
+image: https://images.cart-shed.com/image?src=kinna/news/JPEG%20image-402C-ABF3-C6-0.png&width=126
 youtube-url:
 ---
 
-Following their Sofar performance at the Mockingbird Cinema in Digbeth, <i>Her Revelation</i> will be releasing their debut EP in May 2024.
+Kinna's electronic group <i>Her Revelation</i> released their debut single, 'Dare', on 12th February - now available on all major streaming platforms!
