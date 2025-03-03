@@ -19,7 +19,7 @@ Kinna’s work has been performed and displayed at Centrala, Flatpack Festival, 
 
 Alongside composition and film, Kinna is an accomplished singer and instrumentalist. She often performs her songs self-accompanied at the piano, harpsichord or cello. While studying with Gavin Bryars, she was inspired to learn the viola da gamba and to play the harpsichord, which has greatly influenced her songwriting. Kinna has also recently formed a new electronic music group Her Revelation, in which she is the vocalist. While at the Royal Birmingham Conservatoire, Kinna has performed (as a cellist) in a string quartet and in the RBC Symphony Orchestra and Final Projects Orchestra. She has also performed with a variety of ensembles on the viola da gamba. Previously, she has performed in Howard Moody’s Opera  Agreed at Glyndebourne (2019) and in the BBC Proms with Jonny Greenwood (2018).
 
-Kinna is currently completing a degree in composition at the Royal Birmingham Conservatoire. Previously she studied composition at the Junior Department of the Royal Academy of Music.
+Kinna completed a degree in composition at the Royal Birmingham Conservatoire in June 2024. Previously she studied composition at the Junior Department of the Royal Academy of Music.
 
 <br/>
 
