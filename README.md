@@ -89,7 +89,7 @@ Only one of bandcamp-album-no or soundclous-track-no should have a value. This i
 
 _how to get the embed code_
 
-Finally, there is an image url. The maximum size of the image is 700px x 700px. You could either link to a remote image or upload an image into the ```/static/images/music``` directory. If you use the [Quru Image Server](https://images.quru.com/list/?path=/kinna) then please don't forget to add ```&width=700``` to the image path.
+Finally, there is an image url. The maximum size of the image is 700px x 700px. You could either link to a remote image or upload an image into the ```/static/images/music``` directory. If you use the [Quru Image Server](https://images.cart-shed.com/list/?path=/kinna) then please don't forget to add ```&width=700``` to the image path.
 
 You can put any text under the lower three dashes (```---```) and this will be rendered as the copy below the image. You can use [markdown](https://www.markdownguide.org/) or [html](https://www.w3schools.com/html/html_intro.asp) codes to format it. Two line returns will start a new paragraph.
 
@@ -135,7 +135,7 @@ tags:
   - film
 summary: Kinna sofar gig her revelation her rev new music electronic band singing debut ep new announcement release
 description: Her Revelation debut ep announcement
-image: ///images.quru.com/image?src=/kinna/news/Group3_1.64.1.jpg&width=126&right=0.93438&left=0.06875
+image: ///images.cart-shed.com/image?src=/kinna/news/Group3_1.64.1.jpg&width=126&right=0.93438&left=0.06875
 youtube-url:
 ---
 

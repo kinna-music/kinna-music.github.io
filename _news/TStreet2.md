@@ -8,7 +8,7 @@ tags:
   - film
 summary: Kinna exhibition film art music student Royal Birmingham conservatoire rbc bcu birmingham city university T street Sevven Kucuk young artist royal academy of art
 description: Kinna solo exhibition Dyad at T Street gallery Birmingham
-image: https://images.quru.com/image?src=kinna/news/Human%20Still%201.png&width=126
+image: https://images.cart-shed.com/image?src=kinna/news/Human%20Still%201.png&width=126
 youtube-url:
 ---
 
