@@ -10,7 +10,7 @@ spotify:
 applemusic:
 soundcloud:
 default-source: bandcamp
-image: ///images.quru.com/image?src=/web/south/Consulting.png&bottom=0.9625&top=0.15
+image: ///images.cart-shed.com/image?src=/web/south/Consulting.png&bottom=0.9625&top=0.15
 ---
 
 Something different

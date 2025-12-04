@@ -6,15 +6,15 @@ publish: false
 order: 20
 summary: This is a template for displaying a set of stills
 description: Stills will currently appear under the film menu
-image: "///images.quru.com/image?src=kinna/filmstills/Death+breathing+pic+2.png"
+image: "///images.cart-shed.com/image?src=kinna/filmstills/Death+breathing+pic+2.png"
 images:
-  - image: "///images.quru.com/image?src=kinna/filmstills/Death+breathing+pic+2.png"
+  - image: "///images.cart-shed.com/image?src=kinna/filmstills/Death+breathing+pic+2.png"
     title: Death breathing
     type: zoom
-  - image: "///images.quru.com/image?src=kinna/filmstills/IntoFoam.jpg"
+  - image: "///images.cart-shed.com/image?src=kinna/filmstills/IntoFoam.jpg"
     title: Into Foam
     type: zoom
-  - image: "///images.quru.com/image?src=kinna/filmstills/Lights.png"
+  - image: "///images.cart-shed.com/image?src=kinna/filmstills/Lights.png"
     title: Lights
     type: static
 ---

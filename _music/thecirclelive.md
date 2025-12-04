@@ -11,7 +11,7 @@ spotify: album/1AVjQfj0vtm7eU5nHmQ2YZ?si=SJO49FnKSIyR5qE9hfWysw
 applemusic: 
 soundcloud: sets/the-circle-live-album
 default-source: bandcamp
-image: "///images.quru.com/image?src=/kinna/musicart/thecircle.png&width=450&format=jpeg&quality=75"
+image: "///images.cart-shed.com/image?src=/kinna/musicart/thecircle.png&width=450&format=jpeg&quality=75"
 
 ---
 

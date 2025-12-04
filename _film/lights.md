@@ -6,7 +6,7 @@ publish: true
 order: 10
 summary: ligths harbour with instrumental music
 description: Lights is a film of Littlehampton harbour with isntrumental music
-image: "///images.quru.com/image?src=kinna/filmstills/Lights.png"
+image: "///images.cart-shed.com/image?src=kinna/filmstills/Lights.png"
 youtube-embed: "https://www.youtube.com/embed/UMIp3hPnrqs?si=Lly4N1DICf2MTtdc"
 youtube-url: "https://youtu.be/UMIp3hPnrqs"
 duration: 242
