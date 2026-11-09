@@ -3,7 +3,7 @@ layout: default
 title: About Kinna
 ---
 <div id="about-head">
-    <div id="about-portrait"><img src="/static/images/kinna_bw325.jpg" alt="Kinna"></div>
+    <div id="about-portrait"><img src="///images.cart-shed.com/image?src=/kinna/Kinna%20headshot.jpeg&width=325&quality=75" alt="Kinna"></div>
     <div id="about-social">
         <a href="https://www.instagram.com/kinnartmusic/" target="_new"><img src="/static/images/instagram60.jpg" alt="instagram" class="social first" class="instagram"></a><br/>
         <a href="https://www.youtube.com/@kinnartmusic" target="_new"><img src="/static/images/youtube60.png" alt="Youtube" class="social" class="youtube"></a><br/>
